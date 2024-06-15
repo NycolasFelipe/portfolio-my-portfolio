@@ -1,0 +1,37 @@
+{
+  "name": "portfolio-my-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "storybook": "^8.1.9"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.5.0",
+    "@storybook/addon-essentials": "^8.1.9",
+    "@storybook/addon-interactions": "^8.1.9",
+    "@storybook/addon-links": "^8.1.9",
+    "@storybook/addon-onboarding": "^8.1.9",
+    "@storybook/blocks": "^8.1.9",
+    "@storybook/nextjs": "^8.1.9",
+    "@storybook/react": "^8.1.9",
+    "@storybook/test": "^8.1.9",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
