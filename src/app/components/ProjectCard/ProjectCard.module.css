@@ -1,0 +1,106 @@
+.project_card {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 580px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #363636;
+  box-shadow: 2px 2px 20px #33333333;
+}
+
+.project_card .preview {
+  height: 260px;
+  overflow: hidden;
+}
+
+.project_card .preview img {
+  width: 100%;
+}
+
+.project_card .content {
+  padding: 24px;
+}
+
+.project_card .content .title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 26px;
+  color: #CCCCCC;
+  padding-bottom: 16px;
+}
+
+.project_card .content .desc {
+  padding-bottom: 16px;
+}
+
+.project_card .content .desc,
+.project_card .content .stack {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #CCCCCC;
+}
+
+.project_card .content .stack b {
+  font-weight: 500;
+}
+
+.project_card .links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+
+.project_card .links a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.project_card .links a:hover {
+  background: #444444;
+  transition: 0.3s;
+}
+
+@media (max-width: 440px) {
+  .project_card {
+    width: 280px;
+    height: 600px;
+  }
+
+  .project_card .content .title {
+    font-size: 18px;
+  }
+
+  .project_card .content .desc,
+  .project_card .content .stack {
+    font-size: 16px;
+  }
+
+  .project_card .links {
+    padding: 0 20px;
+    flex-direction: column;
+    padding-bottom: 20px;
+    gap: 0;
+  }
+
+  .project_card .links a {
+    justify-content: center;
+  }
+}
