@@ -2,6 +2,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Profile } from "./components/Profile/Profile";
 import { Footer } from "./components/Footer/Footer";
 import { ProjectCard } from "./components/ProjectCard/ProjectCard";
+import { Analytics } from "@vercel/analytics/react";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -102,6 +103,7 @@ export default function Home() {
       <footer className={styles.footer}>
         <Footer />
       </footer>
+      <Analytics />
     </>
   );
 }
