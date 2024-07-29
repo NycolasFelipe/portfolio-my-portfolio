@@ -40,6 +40,14 @@ export default function Home() {
       "urlPreview": "https://portfolio-react-ecommerce-website.vercel.app",
       "urlCode": "https://github.com/NycolasFelipe/portfolio-react-ecommerce-website",
       "imgSrc": "img/project_card_1.png"
+    },
+    {
+      "title": "Agenda de Contatos",
+      "desc": "Agenda para gerenciar contatos. Capacidade de criar, editar, atualizar e excluir contatos. Dados salvos localmente. Aplicação responsiva e que suporta dispositivos desktop e mobile.",
+      "stack": "HTML, CSS, JavaScript, React",
+      "urlPreview": "https://portfolio-react-contacts.vercel.app",
+      "urlCode": "https://github.com/NycolasFelipe/portfolio-react-contacts",
+      "imgSrc": "img/project_card_3.png"
     }
   ];
 
