@@ -13,8 +13,17 @@
   padding: 50px 0;
 }
 
+.footer .container_contact .contact_info .icon {
+  position: relative;
+  top: 4px;
+}
+
 .footer .container_contact .contact_info .phone {
   padding-right: 60px;
+}
+
+.footer .container_contact .contact_info .email .icon {
+  right: 8px;
 }
 
 .footer .container_contact .contact_icons {

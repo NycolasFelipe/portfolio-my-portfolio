@@ -9,9 +9,8 @@ export const Navbar = () => {
         <ul>
           <a href="#"><li>Início</li></a>
           <a href="#about"><li>Sobre mim</li></a>
-          <a href="#tech"><li>Habilidades</li></a>
           <a href="#projects"><li>Projetos</li></a>
-          <a href="#contact"><li>Contato</li></a>
+          <a href="#footer"><li>Contato</li></a>
         </ul>
       </div>
       <div className={styles.container_icons}>

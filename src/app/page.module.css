@@ -10,16 +10,7 @@
   padding-top: 60px;
 }
 
-.main .projects,
 .main .about {
-  padding-top: 160px;
-}
-
-.main .tech {
-  padding-top: 40px;
-}
-
-.footer {
   padding-top: 160px;
 }
 
@@ -31,35 +22,25 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  font-size: 38px;
+  font-size: 24px;
   line-height: 1.2;
   padding-bottom: 20px;
+  text-transform: uppercase;
 }
 
-.main .tech>p,
-.main .projects>p,
-.main .about>p {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  text-align: center;
-  color: #A7A7A7;
-  padding-bottom: 100px;
-}
-
-.main .about >h3 {
+.about>h3 {
   color: #d9d9d9;
   text-align: center;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.2;
   padding-bottom: 20px;
+  text-transform: uppercase;
 }
 
-.main .about >h4 {
+.about>h4 {
   color: #d9d9d9;
   text-align: center;
   font-family: 'Poppins';
@@ -70,92 +51,247 @@
   padding-bottom: 20px;
 }
 
-.main .about>p {
-  text-align: justify;
-  line-height: 2;
+.about>p {
+  font-size: 18px;
+  color: #A7A7A7;
+  text-align: left;
+  line-height: 1.6;
+  padding-bottom: 60px;
 }
 
-.main .tech .tech_items {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
+.about b {
+  background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-.main .tech .tech_items .tech_item {
+.about .experience {
+  color: #A7A7A7;
+  padding-left: 60px;
+  position: relative;
+}
+
+.experience .header {
+  padding-bottom: 16px;
+}
+
+.experience .header .logo {
+  position: absolute;
+  left: 2px;
+  top: 4px;
+}
+
+.experience .header .logo img {
+  width: 40px;
+}
+
+.experience .header h4 {
+  font-size: 20px;
+  background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.experience .header p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.experience .body {
+  padding-bottom: 80px;
+}
+
+.experience .body>p {
+  font-size: 18px;
+  line-height: 1.6;
+  padding-bottom: 20px;
+}
+
+.experience .stack ul {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  transition: 0.3s;
-  cursor: pointer;
 }
 
-.main .tech .tech_items .tech_item:hover {
+.experience .stack li {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding-right: 10px;
+}
+
+.experience .stack li:hover {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.experience .stack li:hover img {
   filter: brightness(1.3);
   transition: 0.3s;
 }
 
-.main .tech .tech_items .tech_item .tech_item_icon {
+.experience .stack li img {
+  width: 20px;
+  margin-right: 4px;
+  transition: 0.3s;
+}
+
+.projects {
+  color: #A7A7A7;
+}
+
+.projects .item .header {
+  padding-bottom: 16px;
+}
+
+.projects .item .header h3 {
+  font-size: 20px;
+  background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.projects .item .header p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.projects .item .body {
+  padding-bottom: 80px;
+}
+
+.projects .item .body>p {
+  font-size: 18px;
+  line-height: 1.6;
+  padding-bottom: 20px;
+}
+
+.projects .item .body .link {
+  color: #fff;
+}
+
+.projects .item .body .icon {
+  font-size: 16px;
+}
+
+.projects .item .stack h4 {
+  height: 0;
+  visibility: hidden;
+}
+
+.projects .item .stack ul {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
-.main .tech .tech_items .tech_item .tech_item_icon img {
-  width: 80px;
+.projects .item .stack li {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding-right: 10px;
 }
 
-.main .tech .tech_items .tech_item .tech_item_name span {
-  display: block;
-  color: #A7A7A7;
-  user-select: none;
-  font-family: "Poppins", sans-serif;
-  margin-top: 10px;
+.projects .item .stack li:hover {
+  color: #fff;
+  transition: 0.3s;
 }
 
-.main .projects .projects_items {
+.projects .item .stack li:hover img {
+  filter: brightness(1.3);
+  transition: 0.3s;
+}
+
+.projects .item .stack li img {
+  width: 20px;
+  margin-right: 4px;
+  transition: 0.3s;
+}
+
+.projects .item .stack li.title {
+  pointer-events: none;
+}
+
+.projects .item .repo {
+  padding-top: 24px;
+}
+
+.projects .item .repo h4 {
+  height: 0;
+  visibility: hidden;
+}
+
+.projects .item .repo ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 60px;
+  gap: 10px;
 }
 
-@media (max-width: 768px) {
+.projects .item .repo li {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  padding-right: 10px;
+  transition: 0.3s;
+}
 
-  .nav,
-  .main,
-  .footer {
-    padding: 10px 20px;
-  }
+.projects .item .repo li:hover {
+  color: #fff;
+  transition: 0.3s;
+}
 
-  .footer {
-    padding-top: 120px;
-  }
+.projects .item .repo li:hover img {
+  filter: brightness(1.3);
+  transition: 0.3s;
+}
 
-  .main .profile {
-    padding-top: 0;
-  }
+.projects .item .repo li a {
+  display: flex;
+  gap: 4px;
+}
 
-  .main .tech {
-    padding-top: 120px;
-  }
+.projects .item .repo li img {
+  width: 20px;
+  margin-right: 4px;
+  transition: 0.3s;
+}
 
-  .main .tech>h2,
-  .main .projects>h2 {
-    font-size: 28px;
-  }
+.projects .item .repo li.title {
+  width: 100%;
+  pointer-events: none;
+}
 
-  .main .tech>p,
-  .main .projects>p {
-    padding-bottom: 60px;
-  }
+.projects .item .repo li:not(.title) {
+  background: linear-gradient(90deg, #363636 -2.06%, #363636 100%);
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  filter: grayscale(1);
+  transition: 0.3s;
+}
 
-  .main .about>p {
-    font-size: 18px;
-  }
+.projects .item .repo li:not(.title):hover {
+  background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+  filter: grayscale(0);
+  transition: 0.3s;
+}
 
-  .main .projects {
-    padding-top: 100px;
-  }
+.projects .item .carousel h4 {
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+
+.projects .item .carousel div {
+  cursor: pointer;
 }

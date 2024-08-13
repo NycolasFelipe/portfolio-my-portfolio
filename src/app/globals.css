@@ -22,3 +22,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.slick-dots li button:before {
+  color: #A7A7A7 !important;
+}
