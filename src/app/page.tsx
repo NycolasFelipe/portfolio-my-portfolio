@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <div id="about" className={styles.about}>
           <h2>Sobre mim</h2>
-          <p>Sou um desenvolvedor front end proativo e apaixonado por tecnologia, com 2 anos de experiência em criar interfaces web responsivas e visuais. Tenho sólida experiência com <b>jQuery, Bootstrap, Figma, Liferay e GitLab</b>, e me mantenho atualizado com as últimas tendências do mercado. Sou capaz de traduzir designs <b>UI/UX</b> em código limpo e eficiente, utilizando <b>metodologias ágeis</b> para garantir entregas rápidas e de alta qualidade. Busco constantemente aprimorar minhas habilidades e explorar novas tecnologias para oferecer soluções inovadoras e personalizadas.</p>
+          <p>Sou um desenvolvedor web proativo e apaixonado por tecnologia, com 2 anos de experiência em criar interfaces web responsivas e visuais. Tenho sólida experiência com <b>jQuery, Bootstrap, Figma, Liferay e GitLab</b>, e me mantenho atualizado com as últimas tendências do mercado. Sou capaz de traduzir designs <b>UI/UX</b> em código limpo e eficiente, utilizando <b>metodologias ágeis</b> para garantir entregas rápidas e de alta qualidade. Busco constantemente aprimorar minhas habilidades e explorar novas tecnologias para oferecer soluções inovadoras e personalizadas.</p>
           <h3>Experiência</h3>
           <div className={styles.experience}>
             <div className={styles.item}>
@@ -43,7 +43,7 @@ export default function Home() {
                 <p className={styles.location}>Rio de Janeiro (Remoto)</p>
               </div>
               <div className={styles.body}>
-                <p>Trabalhei durante 2 anos na Opikode como Desenvolvedor Front End. Durante esse período, auxiliei no desenvolvimento e manutenção do Portal da Editora Senac SP. Contribuí com o desenvolvimento de interfaces responsivas através da tradução de modelos UI/UX feitos em Figma, e implementei integrações de APIs da base de livros do Senac para exibição de dados dos livros, seguindo um processo de desenvolvimento ágil.</p>
+                <p>Trabalhei durante 2 anos na Opikode como estagiário em desenvolvimento web. Durante esse período, auxiliei no desenvolvimento e manutenção do Portal da Editora Senac SP. Contribuí com o desenvolvimento de interfaces responsivas através da tradução de modelos UI/UX feitos em Figma, e implementei integrações de APIs da base de livros do Senac para exibição de dados dos livros, seguindo um processo de desenvolvimento ágil.</p>
                 <div className={styles.stack}>
                   <ul>
                     <li>Stack:</li>
